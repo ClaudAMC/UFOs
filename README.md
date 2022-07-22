@@ -48,10 +48,20 @@ Below the city filter is that state filter. Here we can enter the abbreviation o
 
 4. The Country Filter
 
-Below the state filter is the country filter. In the example below we entered 'us' as the filter
+Below the state filter is the country filter. In the example below we entered 'us' as the filter for country. This will show all the data avaliable as the data only has entriesd for the US.
 
 ![Country Filter.PNG](https://github.com/ClaudAMC/UFOs/blob/main/static/images/Country%20Filter.PNG)
 
 5. The Shape Filter
 
+Below the state filter is the shape filter. Here the shape characterizing the sighting could be used to filter the data, for example, in the image below the circle shape is used to filter the data - using this filter results in 4 entires in the updated table.
+
 ![Shape Filter.PNG](https://github.com/ClaudAMC/UFOs/blob/main/static/images/Shape%20Filter.PNG)
+
+## Summary
+
+A drawback of this design is that the user has to have some idea of the avaliable data; if the user is not familiar with the data then they may spend a long time playing with the filters to realize there is no information for that location or for that type of sighting characterization. This can be a frustrating way to search for results unless you are sure that your search will have data behind it. This might also just be a drawback of the size of the dataset; a larger dataset may provide more options for users unfamiliar with the avaliable data.
+
+A recommendation for further development and a way to counter the aformentioned drawback would be to use drop down filters that displays the avaliable data filters; this would make it easier to search through the data without needing to know what data is avaliable. 
+
+A second recommendation for this analysis would be to make the filtering live (where the table updates as the information is input into the search bar) and not based on a change in the filter search bars; this along with live dropdowns on those filters would make looking through the data much easier. 
